@@ -1,0 +1,6 @@
+5
+bin
+shadow
+knight (H)
+viper
+on
