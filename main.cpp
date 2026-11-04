@@ -304,7 +304,7 @@ vector<NPC> loadTeamFromTxt(string path){
 
     bool is_hero = (line.find("(H)") != string::npos);
 
-    int range_life = is_hero ? 666 : 100;
+    int range_life = is_hero ? 999 : 100;
     int range_attack = is_hero ? 150 : 100;
     int range_defense = is_hero ? 150 : 100;
 
