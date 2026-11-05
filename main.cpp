@@ -350,10 +350,10 @@ int main(){
     string team_2_name = "";
 
     cout << "Digite apenas o nome do time (Ex: humanos): " << endl;
-    cin >> team_1_name;
+    getline(cin, team_1_name);
 
     cout << "Digite apenas o nome do time (Ex: orcs): " << endl;
-    cin >> team_2_name;
+    getline(cin, team_2_name);
 
     string filepath_for_team_1 = "";
     string filepath_for_team_2 = "";
